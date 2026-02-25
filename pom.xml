@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hotel</groupId>
-	<artifactId>Nexus</artifactId>
+	<artifactId>nexus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Nexus</name>
 	<description>Demo project for Spring Boot</description>
@@ -111,6 +111,12 @@
             <groupId>com.stripe</groupId>
             <artifactId>stripe-java</artifactId>
             <version>28.2.0</version>
+        </dependency>
+
+        <!-- Spring Boot Actuator for health checks -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
     </dependencies>
